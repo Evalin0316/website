@@ -1,76 +1,94 @@
 <template>
-	<div>
-		<div class="item">
-			<div class="pic">
-				<img src="../assets/image/sign.png" alt="">
+	<div class="container m-auto">
+		<div class="item flex justify-center flex-wrap flex-col md:flex-row">
+			<div class="pic w-full md:w-1/2">
+				<img class="" src="../assets/image/sign.png" alt="">
 			</div>
-			<div class="text">
-				<h2>點點簽(F2E 4TH活動競賽題目)</h2>
-				<ul>
+			<div class="text bg-orange-50 w-full mt-3 md:w-1/2 md:mt-0">
+				<div class="text-2xl font-bold mb-3">點點簽</div>
+				<ul class="text-left list-disc px-8">
 					<li>點點簽是一個線上文件簽署平台，提供使用者可以即時上傳文件預覽以及建立簽名並進行簽署與下載。</li>
 					<li>與後端討論API資料串接格式</li>
 				</ul>
-				<div>
+				<div class="mt-4">
 					<TagItem :TagItem="['Vue3','Canvas','PDF.js','fabric.js','jsPDF']"/>
+				</div>
+				<div class="mt-4 ml-2.5 px-1 py-2 bg-black  rounded cursor-pointer hover:bg-slate-500">
+					<a class="text-white hover:text-white" href="https://evalin0316.github.io/SIGN/" target="_blank">
+						LINK
+					</a>
 				</div>
 			</div>
 		</div>
 
-		<!-- item02 -->
-		<div class="item">
-			<div class="text">
-				<h2>F2E活動網站(F2E 4TH活動團體競賽)</h2>
-				<ul>
+		<div class="item flex justify-center flex-wrap flex-col md:flex-row">
+			<div class="text bg-orange-50 w-full mt-3 md:w-1/2 md:mt-0">
+				<div class="text-2xl font-bold mb-3">F2E活動網站(F2E 4TH活動團體競賽)</div>
+				<ul class="text-left list-disc px-8">
 					<li>使用GSAP實作滾動式視差與動畫</li>
 					<li>與UIUX設計師討論layout規劃</li>
 				</ul>
-				<div>
+				<div class="mt-4">
 					<TagItem :TagItem="['Vue3','GSAP']"/>
 				</div>
-				<div>LINK</div>
+				<div class="mt-4 ml-2.5 px-1 py-2 bg-black  rounded cursor-pointer hover:bg-slate-500">
+					<a class="text-white hover:text-white" href="https://f2e4th.github.io/week1/dist/" target="_blank">
+						LINK
+					</a>
+				</div>
 			</div>
-			<div class="pic">
-				<img src="https://picsum.photos/600/350?random=20" alt="">
+			<div class="pic w-full md:w-1/2">
+				<img src="../assets/image/f2e-page.png" alt="">
 			</div>
 		</div>
 
-		<!-- item03 -->
-		<div class="item">
-			<div class="pic">
-				<img src="https://picsum.photos/600/350?random=30" alt="">
+		<div class="item flex justify-center flex-wrap flex-col md:flex-row">
+			<div class="pic w-full md:w-1/2">
+				<img src="../assets/image/nature.png" alt="">
 			</div>
-			<div class="text">
-				<h2>服飾電商平台</h2>
-				<ul>
-					<li>製作使用者購物前台以及管理者後台</li>
-					<li>使用Axois串接API</li>
+			<div class="text bg-orange-50 w-full mt-3 md:w-1/2 md:mt-0">
+				<div class="text-2xl font-bold mb-3">服飾電商平台</div>
+				<ul class="text-left list-disc px-8">
+					<li>使用Vue.js開發一個現代化的電子商務平台</li>
+					<li>實現商品目錄、購物車、結帳流程等核心功能。</li>
 				</ul>
-				<div>
+				<div class="mt-4">
 					<TagItem :TagItem="['Vue3']"/>
 				</div>
-				<div>LINK</div>
+
+				<div class="mt-4 ml-2.5 px-1 py-2 bg-black  rounded cursor-pointer hover:bg-slate-500">
+					<a class="text-white hover:text-white" href="https://evalin0316.github.io/Nature_store_shopping_cart/" target="_blank">
+						LINK
+					</a>
+				</div>
+			
 			</div>
 		</div>
 
-		<!-- item04 -->
-		<div class="item">
-			<div class="text">
-				<h2>代辦事項</h2>
-				<p>使用React開發簡易版的代辦事項網站。包含串接使用者登入登出，新增刪除等功能。</p>
-				<div>
+		<div class="item flex justify-center flex-wrap flex-col md:flex-row">
+			<div class="text bg-orange-50 w-full mt-3 md:w-1/2 md:mt-0">
+				<div class="text-2xl font-bold mb-3">代辦事項</div>
+				<ul class="text-left list-disc px-8">
+					<li>使用React.js開發簡易版的代辦事項網站。包含串接使用者登入登出，新增刪除等功能。</li>
+				</ul>
+				<div class="mt-4">
 					<TagItem :TagItem="['React','react-hook-form']"/>
 				</div>
-				<div>LINK</div>
+				<div class="mt-4 ml-2.5 px-1 py-2 bg-black  rounded cursor-pointer hover:bg-slate-500">
+					<a class="text-white hover:text-white" href="https://evalin0316.github.io/React-todoList/" target="_blank">
+						LINK
+					</a>
+				</div>
 			</div>
-			<div class="pic">
-				<img src="https://picsum.photos/600/350?random=40" alt="">
+			<div class="pic w-full md:w-1/2">
+				<img src="../assets/image/todolist.png" alt="">
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
-import TagItem from '../layout/Tag';
+import TagItem from '../layout/Tag.vue';
 export default{
 	components: {
         TagItem
@@ -83,12 +101,9 @@ export default{
 
 
 <style lang="scss" scoped>
-.wrap {
-	width: 960px;
-	margin: 0 auto;
-}
-
-.item {
+$weat:#fdf5e6;
+.container{
+    .item {
 	display: flex;
 	align-items: center;
 	margin-bottom: 70px;
@@ -102,7 +117,7 @@ export default{
 	.pic,
 	.text {
 		flex-shrink: 0;
-		width: 50%;
+		// width: 50%;
 	}
 
 	.text {
@@ -110,12 +125,7 @@ export default{
 		position: relative;
 		z-index: 2;
 		border-radius: 6px;
-		box-shadow: 0 0 5px 3px rgba($color: #000000, $alpha: 0.3);
-
-		h2 {
-			font-size: 32px;
-			color: #167bff;
-		}
+		box-shadow: 0 0 5px 3px rgba($color: #fdf5e6, $alpha: 0.3);
 
 		p {
 			line-height: 2;
@@ -123,24 +133,13 @@ export default{
 	}
 
 	> :first-child {
-		margin-right: -40px;
-	}
-
-	&:nth-child(1) .text {
-		background-color: rgba($color: #fdf5e6, $alpha: 0.5);
-
-	}
-
-	&:nth-child(2) .text {
-		background-color: rgba($color: #fdf5e6, $alpha: 0.5);
-	}
-
-	&:nth-child(3) .text {
-		background-color: rgba($color: #fdf5e6, $alpha: 0.5);
-	}
-
-	&:nth-child(4) .text {
-		background-color: rgba($color: #fdf5e6, $alpha: 0.5);
+		margin-right: 0;
+		@media screen and (min-width:768px) {
+			margin-right: -40px;
+		}
 	}
 }
+
+}
+
 </style>
