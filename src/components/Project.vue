@@ -9,6 +9,8 @@
 				<ul class="text-left list-disc px-8 text-black">
 					<li>點點簽是一個線上文件簽署平台，提供使用者可以即時上傳文件預覽以及建立簽名並進行簽署與下載。</li>
 					<li>與後端討論API資料串接格式</li>
+					<li>使用Vue Router 完成路由管理</li>
+					<li>使用Tailwind CSS實現畫面 </li>
 				</ul>
 				<div class="mt-4">
 					<TagItem :TagItem="['Vue3','Canvas','PDF.js','fabric.js','jsPDF']"/>
@@ -51,6 +53,7 @@
 				<ul class="text-left list-disc px-8 text-black">
 					<li>使用Vue.js開發一個現代化的電子商務平台</li>
 					<li>實現商品目錄、購物車、結帳流程等核心功能。</li>
+					<li>使用Vue Router 完成路由管理</li>
 				</ul>
 				<div class="mt-4">
 					<TagItem :TagItem="['Vue3']"/>
@@ -99,7 +102,6 @@ export default{
 
 
 <style lang="scss" scoped>
-$weat:#fdf5e6;
 .container{
     .item {
 	display: flex;
