@@ -5,8 +5,8 @@
 				<img class="" src="../assets/image/sign.png" alt="">
 			</div>
 			<div class="text bg-orange-50 w-full mt-3 md:w-1/2 md:mt-0">
-				<div class="text-2xl font-bold mb-3">點點簽</div>
-				<ul class="text-left list-disc px-8">
+				<div class="text-2xl font-bold mb-3 text-black">點點簽</div>
+				<ul class="text-left list-disc px-8 text-black">
 					<li>點點簽是一個線上文件簽署平台，提供使用者可以即時上傳文件預覽以及建立簽名並進行簽署與下載。</li>
 					<li>與後端討論API資料串接格式</li>
 				</ul>
@@ -23,8 +23,8 @@
 
 		<div class="item flex justify-center flex-wrap flex-col md:flex-row">
 			<div class="text bg-orange-50 w-full mt-3 md:w-1/2 md:mt-0">
-				<div class="text-2xl font-bold mb-3">F2E活動網站(F2E 4TH活動團體競賽)</div>
-				<ul class="text-left list-disc px-8">
+				<div class="text-2xl font-bold mb-3 text-black">F2E活動網站(F2E 4TH活動團體競賽)</div>
+				<ul class="text-left list-disc px-8 text-black">
 					<li>使用GSAP實作滾動式視差與動畫</li>
 					<li>與UIUX設計師討論layout規劃</li>
 				</ul>
@@ -47,8 +47,8 @@
 				<img src="../assets/image/nature.png" alt="">
 			</div>
 			<div class="text bg-orange-50 w-full mt-3 md:w-1/2 md:mt-0">
-				<div class="text-2xl font-bold mb-3">服飾電商平台</div>
-				<ul class="text-left list-disc px-8">
+				<div class="text-2xl font-bold mb-3 text-black">服飾電商平台</div>
+				<ul class="text-left list-disc px-8 text-black">
 					<li>使用Vue.js開發一個現代化的電子商務平台</li>
 					<li>實現商品目錄、購物車、結帳流程等核心功能。</li>
 				</ul>
@@ -67,8 +67,8 @@
 
 		<div class="item flex justify-center flex-wrap flex-col md:flex-row">
 			<div class="text bg-orange-50 w-full mt-3 md:w-1/2 md:mt-0">
-				<div class="text-2xl font-bold mb-3">代辦事項</div>
-				<ul class="text-left list-disc px-8">
+				<div class="text-2xl font-bold mb-3 text-black">代辦事項</div>
+				<ul class="text-left list-disc px-8 text-black">
 					<li>使用React.js開發簡易版的代辦事項網站。包含串接使用者登入登出，新增刪除等功能。</li>
 				</ul>
 				<div class="mt-4">
