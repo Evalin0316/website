@@ -1,5 +1,5 @@
 <template>
-<div>© {{getYear}} hsiangting</div>
+<div class="text-black p-4">© {{getYear}} hsiangting</div>
 </template>
 
 <script setup>

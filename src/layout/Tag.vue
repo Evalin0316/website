@@ -19,7 +19,7 @@ export default {
     &__tag{
         background:#F5DEB3;
         border-radius: 4px;
-        margin: 0 10px;
+        margin: 4px 10px;
         padding: 0 10px;
     }
 }

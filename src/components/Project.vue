@@ -13,11 +13,11 @@
 				<div class="mt-4">
 					<TagItem :TagItem="['Vue3','Canvas','PDF.js','fabric.js','jsPDF']"/>
 				</div>
-				<div class="mt-4 ml-2.5 px-1 py-2 bg-black  rounded cursor-pointer hover:bg-slate-500">
-					<a class="text-white hover:text-white" href="https://evalin0316.github.io/SIGN/" target="_blank">
+				<a href="https://evalin0316.github.io/SIGN/" target="_blank">
+					<button class="text-white hover:text-white mt-4 ml-2.5 px-10 py-3 bg-black  rounded cursor-pointer hover:bg-slate-500">
 						LINK
-					</a>
-				</div>
+					</button>
+				</a>
 			</div>
 		</div>
 
@@ -31,11 +31,11 @@
 				<div class="mt-4">
 					<TagItem :TagItem="['Vue3','GSAP']"/>
 				</div>
-				<div class="mt-4 ml-2.5 px-1 py-2 bg-black  rounded cursor-pointer hover:bg-slate-500">
-					<a class="text-white hover:text-white" href="https://f2e4th.github.io/week1/dist/" target="_blank">
+				<a href="https://f2e4th.github.io/week1/dist/" target="_blank">
+					<button class="text-white hover:text-white mt-4 ml-2.5 px-10 py-3 bg-black  rounded cursor-pointer hover:bg-slate-500">
 						LINK
-					</a>
-				</div>
+					</button>
+				</a>
 			</div>
 			<div class="pic w-full md:w-1/2">
 				<img src="../assets/image/f2e-page.png" alt="">
@@ -55,13 +55,11 @@
 				<div class="mt-4">
 					<TagItem :TagItem="['Vue3']"/>
 				</div>
-
-				<div class="mt-4 ml-2.5 px-1 py-2 bg-black  rounded cursor-pointer hover:bg-slate-500">
-					<a class="text-white hover:text-white" href="https://evalin0316.github.io/Nature_store_shopping_cart/" target="_blank">
+				<a href="https://evalin0316.github.io/Nature_store_shopping_cart/" target="_blank">
+					<button class="text-white hover:text-white mt-4 ml-2.5 px-10 py-3 bg-black  rounded cursor-pointer hover:bg-slate-500">
 						LINK
-					</a>
-				</div>
-			
+					</button>
+				</a>
 			</div>
 		</div>
 
@@ -74,11 +72,11 @@
 				<div class="mt-4">
 					<TagItem :TagItem="['React','react-hook-form']"/>
 				</div>
-				<div class="mt-4 ml-2.5 px-1 py-2 bg-black  rounded cursor-pointer hover:bg-slate-500">
-					<a class="text-white hover:text-white" href="https://evalin0316.github.io/React-todoList/" target="_blank">
+				<a href="https://evalin0316.github.io/React-todoList/" target="_blank">
+					<button class="text-white hover:text-white mt-4 ml-2.5 px-10 py-3 bg-black  rounded cursor-pointer hover:bg-slate-500">
 						LINK
-					</a>
-				</div>
+					</button>
+				</a>
 			</div>
 			<div class="pic w-full md:w-1/2">
 				<img src="../assets/image/todolist.png" alt="">
